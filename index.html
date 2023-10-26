@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover</title>
+    <link rel="icon" type="image/png" href="unnamed.png"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <a class="navbar-brand" href="#">
+                    <img src="unnamed.png" class="img-thumbnail" alt="Responsive image" style="height:30px; width:30px;">
+                    <b style="font-family:'Times New Roman', Times, serif; font: size 120px;">Remove bG</b></a>
+     <header>
+            <ul class="nav" id = "mainmenu">
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">About</a></li>
+             <li><a href = "#">Features</a></li> 
+                <li><a href = "">Tools</a></li>
+                <li><a href = "#">Templates</a></li>
+                <li><a href = "#">Login</a></li>
+                <li><a href = "#">SignUp</a></li>
+            </ul>
+        
+        </header>
+    <main>
+        <div class="upload-container">
+            <input type="file" id="fileInput" default accept="backg.jpg"accept="image/*">
+            <label for="fileInput" class="upload-label">Upload an Image</label>
+        </div>
+        <div class="output">
+            <h2>Processed Image</h2>
+            <canvas id="outputCanvas" class="output-canvas" width="400" height="300"></canvas>
+        </div>
+        <button id="removeBackgroundButton" class="remove-background-button" onclick="submitHandler()">Remove Background</button>
+        <button id="downloadButton" class="download-button" onclick="downloadFile()">Download</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 YourCompany. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>                 
+</html>

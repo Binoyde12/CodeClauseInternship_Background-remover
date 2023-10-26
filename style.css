@@ -1,0 +1,107 @@
+body {
+  background-image: url('fbck.jpeg');
+  background-size: cover;
+  font-family: Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  color:fff;
+  padding: 10px;
+  text-align: left;
+}
+header {
+  background-color: #00c3d9ed;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.Logo {
+  float: left;
+}
+
+.Logo img {
+  width: 40%;
+}
+.nav li {
+  display: inline-block;
+}
+.navbar-brand b {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: floralwhite; 
+}
+.nav li a {
+  color: #edffb5;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav li a:hover {
+  background-color: FFE4B5;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:#fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container {
+  text-align: center;
+}
+
+.upload-label {
+  display: block;
+  background-color: #f0ad4e;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #eea236;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-background-button {
+  background-color: #f0ad4e;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #eea236;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.download-button {
+  background-color: #f0ad4e;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #eea236;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.output {
+  text-align: center;
+  margin-top: 20px;
+}
+.output h2 {
+  font-size: 24px;
+}
+
+.output-canvas {
+  max-width: 100%;
+  border: 20px solid #cccccc;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #00d4d9;
+  color: #fff;
+}
+
+outputImage {
+  max-width: 100%;
+  margin-top: 20px;
+}
